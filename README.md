@@ -21,3 +21,7 @@ Note: if no proxy_pass or proxy_key given with-tunnel will try to use the defaul
 * --local_ip: A local machine ip to be used to create the start of the tunnel (Not required, default is 127.0.0.1).
 * --local_port: A port of the local machine to be used to create the start of the tunnel (Required).
 
+### Process options
+* --process: The program to be executed, with-tunnel will exit when the program is completed, in case that process options is not given with-tunnel will keep the tunnel open untill is terminated with a ctrl+c.
+
+Note: if your program has parammeters you need to pass the program and its parameters surrounded with quotes. 
