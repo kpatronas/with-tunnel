@@ -9,4 +9,5 @@ with-tunnel allows to create SSH tunnels running as long as the process that wil
 * --proxy_user: The user to be connected to ssh proxy (Not required, default is the running user)
 * --proxy_pass: The password to be used to connect to the ssh proxy (Not required)
 * --proxy_key:  The ssh key to be used to cinnect to the ssh proxy (Not required)
+
 Note: if no proxy_pass or proxy_key given with-tunnel will try to use the default ssh key of the running user.
