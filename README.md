@@ -1,5 +1,5 @@
 # with-tunnel
-Create an SSH tunnel and keep-it running as long as your program that will use the tunnel.
+Create an SSH tunnel and keep-it running as long as your program runs
 ## What with-tunnel does?
 with-tunnel allows to create SSH tunnels running as long as the process that will use the tunnel run, but also there is option to create persistent tunnels.
 
